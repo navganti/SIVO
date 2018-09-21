@@ -1,0 +1,6 @@
+[submodule "dependencies/caffe-segnet-cudnn7"]
+	path = dependencies/caffe-segnet-cudnn7
+	url = https://github.com/navganti/caffe-segnet-cudnn7
+[submodule "dependencies/g2o"]
+	path = dependencies/g2o
+	url = https://github.com/navganti/g2o

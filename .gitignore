@@ -1,0 +1,14 @@
+CameraTrajectory.txt
+dependencies/DBoW2/build/
+dependencies/DBoW2/lib/
+dependencies/g2o/build/
+dependencies/g2o/lib/
+config/Vocabulary/ORBvoc.txt
+build/
+*~
+lib/
+cmake-build-*/
+.idea
+bin/
+trajectories/
+
