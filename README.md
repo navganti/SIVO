@@ -14,7 +14,7 @@ This method builds on the work of Bayesian SegNet and ORB\_SLAM2. Detailed backg
 
 This implementation has been tested with **Ubuntu 16.04**.
 
-A powerful CPU (e.g. Intel i7), and a powerful GPU (e.g. NVIDIA TitanX) are required to ensure real-time performance and provide more stable and accurate results.
+A powerful CPU (e.g. Intel i7), and a powerful GPU (e.g. NVIDIA TitanX) are required to provide more stable and accurate results. Due to the technique of approximating a Bayesian Neural Network by passing an image through the network several times, this network does not quite run in real time.
 
 ### C++11 Compiler
 The thread and chrono functionalities of C++11 are required
