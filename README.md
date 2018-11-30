@@ -15,6 +15,20 @@ The paper can be found [here](https://arxiv.org/pdf/1811.11946.pdf). If you use 
 }
 ```
 
+If you'd like to deep dive further into the theory, background, or methodology, please refer to my [thesis](https://uwspace.uwaterloo.ca/handle/10012/14111). If you use refer to this document in your work, please cite it:
+
+```
+@mastersthesis{ganti2018SIVO,
+author={{Ganti, Pranav}},
+title={SIVO: Semantically Informed Visual Odometry and Mapping},
+year={2018},
+publisher="UWSpace",
+url={http://hdl.handle.net/10012/14111}
+}
+
+```
+
+
 This method builds on the work of Bayesian SegNet and ORB\_SLAM2. Detailed background information can be found [below](#background-and-related-publications).
 
 ## Prerequisites
