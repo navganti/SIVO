@@ -2,16 +2,18 @@
 
 SIVO is a novel feature selection method for visual SLAM which facilitates long-term localization. This algorithm enhances traditional feature detectors with deep learning based scene understanding using a Bayesian neural network, which provides context for visual SLAM while accounting for neural network uncertainty.
 
-Our method selects features which provide the highest reduction in Shannon entropy between the entropy of the current state, and the joint entropy of the state given the addition of a new feature with the classification entropy of the feature from the Bayesian NN. This strategy generates a sparse map suitable for long-term localization, as each selected feature significantly reduces the uncertainty of the vehicle state and has been detected to be a static object (building, traffic sign, etc.) repeatedly with a high confidence.
+Our method selects features which provide the highest reduction in Shannon entropy between the entropy of the current state and the joint entropy of the state, given the addition of the new feature with the classification entropy of the feature from a Bayesian neural network. This strategy generates a sparse map suitable for long-term localization, as each selected feature significantly reduces the uncertainty of the vehicle state and has been detected to be a static object (building, traffic sign, etc.) repeatedly with a high confidence.
 
-The paper can be found [here](https://arxiv.org/pdf/1811.11946.pdf). If you use this code, please cite the paper:
+The paper can be found [here](https://arxiv.org/pdf/1811.11946.pdf). If you find this code useful, please cite the paper:
 
 ```
-@article{ganti2018visual,
-	title={Visual SLAM with Network Uncertainty Informed Feature Selection},
-	author={Ganti, Pranav and Waslander, Steven L.},
-	journal={arXiv preprint arXiv:1811.11946},
-	year={2018}
+@inproceedings{ganti2019network,
+  title={Network Uncertainty Informed Semantic Feature Selection for Visual SLAM},
+  author={Ganti, Pranav and Waslander, Steven},
+  booktitle={16th Conference on Computer and Robot Vision (CRV)},
+  pages={121--128},
+  year={2019},
+  organization={IEEE}
 }
 ```
 
